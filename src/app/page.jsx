@@ -52,7 +52,7 @@ export default function Home() {
         description={
           "We capture high-resolution drone imagery to create detailed maps, 3D models, and precision measurements — perfect for campsites, resorts, and outdoor venues looking to plan, manage, and showcase their spaces from above."
         }
-        images={"brand-building.webp"}
+        images={"smmap.png"}
       />
       <WhoWeAre
         title1={"work that"}
