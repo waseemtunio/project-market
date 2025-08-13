@@ -1,11 +1,18 @@
-"use client";
+import React from "react";
 import { BannerSection } from "../components/BannerSection";
 import { HeroAllSection } from "../components/HeroAllSection";
 import { JungleSection } from "../components/JungleSection";
 import { TeamMemberSection } from "../components/TeamMemberSection";
 import { TextCounterSection } from "../components/TextCounterSection";
 import { WhoWeAre } from "../components/WhoWeAre";
-// hello
+
+// ✅ Metadata API for App Router
+export const metadata = {
+  title: "Meet the Market Target Team | Experts in SEO, Branding & Video",
+  description:
+    "Get to know the passionate team behind Market Target’s success. Our experts in SEO, branding, and video help service-based businesses grow and thrive worldwide.",
+};
+
 export default function page() {
   return (
     <>

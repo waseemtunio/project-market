@@ -1,7 +1,9 @@
-"use client";
+// src/app/work/page.jsx
+
 import { HeroAllSection } from "../components/HeroAllSection";
 import { LogoTracker } from "../components/LogoTracker";
 import { WorkSection1 } from "../components/WorkSection1";
+
 export default function page() {
   return (
     <>

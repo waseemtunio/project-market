@@ -1,23 +1,30 @@
-"use client";
 import { BannerSection } from "../components/BannerSection";
 import { HeroAllSection } from "../components/HeroAllSection";
 import { LogoTracker } from "../components/LogoTracker";
 import { ServicesSection } from "../components/ServicesSection";
 import { TextCounterSection } from "../components/TextCounterSection";
 import { WhoWeAre } from "../components/WhoWeAre";
+
+// ✅ Metadata API for App Router
+export const metadata = {
+  title:
+    "Our Services | SEO, Branding, Video & Web Development | Market Target",
+  description:
+    "Discover Market Target’s range of services for service-based businesses — from SEO and branding to video content and website development. Proven strategies for measurable growth.",
+};
 export default function page() {
   return (
     <>
       {/* we help you get found, 
     trusted, and chosen. 
     */}
+      xa
       <HeroAllSection
         id={"secrion1"}
         title1={"we help you get found,"}
         title2={"trusted, and chosen."}
         description={`No hype. Just proven strategies to grow service-based<br/> businesses — through SEO, brand clarity, and<br/> high-converting content.`}
       />
-
       <TextCounterSection
         text={`We help service businesses turn attention<br /> into action — with technical precision, compelling<br /> messaging, and scroll-stopping visuals.<br />`}
       />
@@ -25,11 +32,9 @@ export default function page() {
         title={"strategy meets execution. results follow."}
         bgImg={"/images/banner.webp"}
       />
-
       <WhoWeAre
         description={`We work with service businesses that want more than just traffic — they want trust, visibility, and qualified leads. Every service we offer is focused on one thing: measurable growth.<br />`}
       />
-
       <ServicesSection
         title={`website <br />development`}
         description={`Luxury, conversion-focused websites tailored to your brand – specializing in real estate, home services, and corporate sites that impress and perform.`}
@@ -50,7 +55,6 @@ export default function page() {
                 <p>Javascript</p>
                 <p>jQuery</p>`}
       />
-
       <ServicesSection
         title={`seo that gets <br />you found`}
         description={`We audit, fix, and optimize your site from the ground up — site structure, speed, schema, and content — so you rank higher and stay there.`}
@@ -63,7 +67,6 @@ export default function page() {
                   <p>On-page SEO</p>
                   <p>Performance optimization</p>`}
       />
-
       <ServicesSection
         title={`video that builds trust and converts`}
         description={`We create short-form, cinematic, and aerial video content that shows your expertise and elevates your brand across web and social.`}
@@ -73,7 +76,6 @@ export default function page() {
         list2={`<p>Brand overviews</p>
                   <p>ouTube & web-ready formats</p>`}
       />
-
       <ServicesSection
         title={`branding that makes you the obvious choice`}
         description={`We craft brands that are consistent, credible, and easy to choose — from logos and color systems to tone of voice and trust-building assets.`}
@@ -83,7 +85,20 @@ export default function page() {
         list2={`<p>Logo & typography</p>
                   <p>Style guides</p>`}
       />
-
+      <ServicesSection
+        title={`drone photogrammetry & aerial mapping`}
+        description={`We capture high-resolution drone imagery to create detailed maps, 3D models, and precision measurements — perfect for campsites, resorts, and outdoor venues looking to plan, manage, and showcase their spaces from above.<br /><br />
+          <p>High-accuracy aerial mapping & orthophotos</p>
+          <p>3D terrain and structure modeling</p>
+          <p>Campsite layout & planning visuals</p>
+          <p>Marketing-ready aerial photography</p>
+          <p>Accurate measurements for planning & maintenance</p>
+          `}
+        list1={`<p></p>
+                  `}
+        list2={`<p></p>
+                 `}
+      />
       <LogoTracker />
     </>
   );

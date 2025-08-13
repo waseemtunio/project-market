@@ -1,10 +1,17 @@
-"use client";
 import { BannerSection } from "../components/BannerSection";
 import { CounterSection } from "../components/CounterSection";
 import { HeroAllSection } from "../components/HeroAllSection";
 import { LogoTracker } from "../components/LogoTracker";
 import { TextCounterSection } from "../components/TextCounterSection";
 import { WhoWeAre } from "../components/WhoWeAre";
+
+// ✅ Metadata API for App Router
+export const metadata = {
+  title:
+    "About Market Target | Strategic Growth Partner for Service Businesses",
+  description:
+    "Market Target helps service-based brands get found, build trust, and win clients through data-backed SEO, compelling branding, and high-impact video.",
+};
 
 export default function About() {
   //await new Promise((resolve) => setTimeout(resolve, 5000));
@@ -21,7 +28,10 @@ export default function About() {
         paragraph={`We've helped agencies, consultants,<br/> and tradespeople turn traffic into leads and<br/> leads into revenue — without wasting a cent.`}
       />
 
-      <BannerSection title={"strategic. sreative. built to convert."} bgImg={"/images/banner11.webp"} />
+      <BannerSection
+        title={"strategic. sreative. built to convert."}
+        bgImg={"/images/banner11.webp"}
+      />
 
       <WhoWeAre
         title1={"who"}

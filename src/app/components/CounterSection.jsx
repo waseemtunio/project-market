@@ -1,3 +1,4 @@
+"use client";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -26,8 +27,8 @@ export function CounterSection() {
           trigger: boxLeftRef1.current,
           start: "top 70%",
           end: "bottom 90%",
-          scrub: 2
-        }
+          scrub: 2,
+        },
       });
     },
     { scope: boxLeftRef1 }
@@ -46,8 +47,8 @@ export function CounterSection() {
           trigger: boxLeftRef2.current,
           start: "top 70%",
           end: "bottom 90%",
-          scrub: 2
-        }
+          scrub: 2,
+        },
       });
     },
     { scope: boxLeftRef2 }
@@ -66,8 +67,8 @@ export function CounterSection() {
           trigger: boxRightRef1.current,
           start: "top 70%",
           end: "bottom 90%",
-          scrub: 2
-        }
+          scrub: 2,
+        },
       });
     },
     { scope: boxRightRef1 }
@@ -86,8 +87,8 @@ export function CounterSection() {
           trigger: boxRightRef2.current,
           start: "top 70%",
           end: "bottom 90%",
-          scrub: 2
-        }
+          scrub: 2,
+        },
       });
     },
     { scope: boxRightRef1 }

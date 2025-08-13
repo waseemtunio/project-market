@@ -3,6 +3,7 @@ import { useState } from "react";
 import { HeroAllSection } from "../components/HeroAllSection";
 import { TextCounterSection } from "../components/TextCounterSection";
 import AnimatedButton from "../components/AnimatedButton";
+
 export default function page() {
   const [status, setStatus] = useState("");
   const handleSubmit = async (e) => {

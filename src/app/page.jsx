@@ -47,6 +47,13 @@ export default function Home() {
         }
         images={"video2.mp4"}
       />
+      <LeftImgSection
+        title={"drone photogrammetry & aerial mapping"}
+        description={
+          "We capture high-resolution drone imagery to create detailed maps, 3D models, and precision measurements — perfect for campsites, resorts, and outdoor venues looking to plan, manage, and showcase their spaces from above."
+        }
+        images={"brand-building.webp"}
+      />
       <WhoWeAre
         title1={"work that"}
         title2={"performs"}
