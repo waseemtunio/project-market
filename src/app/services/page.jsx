@@ -88,11 +88,12 @@ export default function page() {
       <ServicesSection
         title={`drone photogrammetry & aerial mapping`}
         description={`We capture high-resolution drone imagery to create detailed maps, 3D models, and precision measurements — perfect for campsites, resorts, and outdoor venues looking to plan, manage, and showcase their spaces from above.<br /><br />
-          <p>High-accuracy aerial mapping & orthophotos</p>
-          <p>3D terrain and structure modeling</p>
-          <p>Campsite layout & planning visuals</p>
-          <p>Marketing-ready aerial photography</p>
-          <p>Accurate measurements for planning & maintenance</p>
+          <p>Turn aerial data into actionable plans and standout visuals.</p>
+          <p>Orthophotos & high-accuracy mapping</p>
+          <p>3D terrain / structure models (DEM/DSM)</p>
+          <p>Campsite layout planning & capacity visuals</p>
+          <p>Measurement: area, distance, volume</p>
+          <p>Marketing-ready aerial photography & video</p>
           `}
         list1={`<p></p>
                   `}
